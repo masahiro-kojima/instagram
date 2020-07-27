@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
-gem 'devise', '~> 4.6.1'
+gem 'devise', '~> 4.7.1'
 gem 'carrierwave', '~> 1.0'
 gem "mini_magick"
 gem 'pg', group: :production  # この1行を追加
